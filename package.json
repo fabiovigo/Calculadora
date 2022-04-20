@@ -1,0 +1,22 @@
+{
+  "name": "calculadora",
+  "version": "1.0.0",
+  "description": "esos ahi",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabiovigo/Calculadora.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fabiovigo/Calculadora/issues"
+  },
+  "homepage": "https://github.com/fabiovigo/Calculadora#readme",
+  "dependencies": {
+    "jest": "^27.5.1"
+  }
+}
