@@ -1,4 +1,5 @@
-class Pantalla {
+const Operaciones = require ("./Operaciones")
+    module.exports = class Pantalla {
     constructor(displayValorAnterior, displayValorActual) {
         this.displayValorActual = displayValorActual;
         this.displayValorAnterior = displayValorAnterior;
@@ -14,17 +15,6 @@ class Pantalla {
         }
     }
 
-    borrar() {
-        this.valorActual = this.valorActual.toString().slice(0,-1);
-        this.imprimirValores();
-    }
-
-    borrarTodo() {
-        this.valorActual = '';
-        this.valorAnterior = '';
-        this.tipoOperacion = undefined;
-        this.imprimirValores();
-    }
 
     computar(tipo) {
         this.tipoOperacion !== 'igual' && this.calcular();
@@ -53,3 +43,5 @@ class Pantalla {
         this.valorActual = this.calculador[this.tipoOperacion](valorAnterior, valorActual);
     }
 }
+
+    
