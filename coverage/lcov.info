@@ -3,7 +3,7 @@ SF:Operaciones.js
 FN:2,sumar
 FN:6,restar
 FN:10,dividir
-FN:14,multiplicar
+FN:13,multiplicar
 FNF:4
 FNH:4
 FNDA:1,sumar
@@ -32,7 +32,7 @@ LH:17
 BRDA:2,0,0,1
 BRDA:6,1,0,1
 BRDA:10,2,0,1
-BRDA:14,3,0,1
+BRDA:13,3,0,1
 BRF:4
 BRH:4
 end_of_record
