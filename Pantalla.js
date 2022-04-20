@@ -2,7 +2,7 @@ class Pantalla {
     constructor(displayValorAnterior, displayValorActual) {
         this.displayValorActual = displayValorActual;
         this.displayValorAnterior = displayValorAnterior;
-        this.calculador = new Calculadora();
+        this.calculador = new  Operaciones();
         this.tipoOperacion = undefined;
         this.valorActual = '';
         this.valorAnterior = '';
