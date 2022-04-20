@@ -5,7 +5,7 @@
 
 body {
     margin: 0;
-    background-color: #224870;
+    background-color: #5b5b5b;
 }
 
 .container {
@@ -17,8 +17,8 @@ body {
 
 .calculadora {
     display: grid;
-    grid-template-columns: repeat(4, 75px);
-    grid-template-rows: 160px repeat(5, 75px);
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: 160px repeat(5, 100px);
     background-color: #ff0000;
     padding: 15px;
     border-radius: 32px;
@@ -32,11 +32,11 @@ button {
     font-size: 1.5em;
     border: none;
     background-color: #000000;
-    box-shadow: 5px 5px 10px -3px #00000040, -5px -5px 15px 3px #00ffc11f;
+    box-shadow: 5px 5px 10px -3px #00000040, -5px -5px 15px 3px #ff00001f;
 }
 
 button:active {
-    background-color: #6c6c6c;
+    background-color: #ff0000;
 }
 
 button:focus {
@@ -54,7 +54,7 @@ button:focus {
     margin: 10px 10px 20px;
     flex-direction: column;
     align-items: flex-end;
-    background-color: #363636;
+    background-color: #000000;
     border-radius: 32px;
     text-align: right;
     justify-content: space-between;
