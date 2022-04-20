@@ -14,4 +14,4 @@
         return num1 * num2;
     }
  }
-    module.exports = { sumar, restar, dividir, multiplicar};
+    module.exports = new Operaciones;
