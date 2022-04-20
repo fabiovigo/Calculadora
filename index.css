@@ -6,6 +6,8 @@
 body {
     margin: 0;
     background-color: #5b5b5b;
+    height: 100vh;
+    width: 100vh;
 }
 
 .container {
@@ -13,6 +15,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    width: 100vh;
 }
 
 .calculadora {
