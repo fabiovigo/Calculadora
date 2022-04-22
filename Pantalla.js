@@ -1,5 +1,5 @@
 const Operaciones = require ("./Operaciones")
-    module.exports = class Pantalla {
+class Pantalla {
     constructor(displayValorAnterior, displayValorActual) {
         this.displayValorActual = displayValorActual;
         this.displayValorAnterior = displayValorAnterior;
