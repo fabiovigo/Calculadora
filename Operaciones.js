@@ -1,4 +1,6 @@
- module.exports = class Operaciones{
+/* module.exports = class Operaciones{*/
+/*Si pones esta linea de codigo peta*/
+class Operaciones{
      sumar(num1, num2) {
         return num1 + num2;
     }
@@ -13,5 +15,6 @@
     multiplicar(num1, num2) {
         return num1 * num2;
     }
- }
+}
+ 
 
