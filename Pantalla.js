@@ -1,9 +1,10 @@
-const Operaciones = require ("./Operaciones")
+/*const Operaciones = require ("./Operaciones")*/
+/*Si pones esta linea de codigo peta*/
 class Pantalla {
     constructor(displayValorAnterior, displayValorActual) {
         this.displayValorActual = displayValorActual;
         this.displayValorAnterior = displayValorAnterior;
-        this.calculador = new  Operaciones();
+        this.calculador = new Operaciones();
         this.tipoOperacion = undefined;
         this.valorActual = '';
         this.valorAnterior = '';
