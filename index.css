@@ -57,7 +57,7 @@ button:focus {
     margin: 10px 10px 20px;
     flex-direction: column;
     align-items: flex-end;
-    background-color: #bebebe;
+    background-color: #00000033;
     border-radius: 32px;
     text-align: right;
     justify-content: space-between;
