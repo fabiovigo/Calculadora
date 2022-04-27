@@ -15,3 +15,6 @@ Hemos tenido que consultar muchas páginas de internet ya que había muchas duda
 
 Comentario tests:
 Para asegurarnos de que las funciones del programa se ejecutan correctamente, previamente escribir el programa en JavaScript realizamos los tests correspondientes a las funciones de las operaciones. Para comprobar la función de la suma utilicé los números 1 y 2 y si recibe como resultado 3 (1+2) el test se completa correctamente. En el caso de la resta hice lo mismo, pero en este caso utilizando los números 2 y 1 esperando como resultado 1 (2-1). Para la división utilicé los números 4 y 2, esperando como resultado un 2 (4/2). Y por último en el caso de la multiplicación hice lo mismo que el los tres anteriores pero utilizando los números 3 y 2 esperando como resultado 6 (3*2). Una vez terminamos el código en JavaScript lo sometimos a dichos test y los pasaron todos exitosamente.
+
+
+POOOOOOOOLVOOOOOORRRRRAAAAA
