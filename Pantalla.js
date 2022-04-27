@@ -12,11 +12,11 @@ class Pantalla {
             sumar: '+',
             dividir: '%',
             multiplicar: 'x',
-            restar: '-', 
+            restar: '-',
+            raiz_cuadrada: '√',
+            potencia: '^',
         }
     }
-
-
     computar(tipo) {
         this.tipoOperacion !== 'igual' && this.calcular();
         this.tipoOperacion = tipo;
