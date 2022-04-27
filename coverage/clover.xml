@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1650716295725" clover="3.2.0">
-  <project timestamp="1650716295725" name="All files">
+<coverage generated="1650882370343" clover="3.2.0">
+  <project timestamp="1650882370343" name="All files">
     <metrics statements="21" coveredstatements="21" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4" elements="29" coveredelements="29" complexity="0" loc="21" ncloc="21" packages="1" files="1" classes="1"/>
-    <file name="Operaciones.js" path="/Users/alex/Documents/DAM/Entornos de desarrollo/Entornos repos/Calculadora/Operaciones.js">
+    <file name="Operaciones.js" path="C:\Users\fabio\Desktop\calc definitiva\Calculadora\Operaciones.js">
       <metrics statements="21" coveredstatements="21" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
       <line num="1" count="1" type="stmt"/>
       <line num="2" count="1" type="stmt"/>
