@@ -1,4 +1,7 @@
 /*const Operaciones = require ("./Operaciones")*/
+
+const { raiz_cuadrada } = require("./Operaciones");
+
 /*Si pones esta linea de codigo peta*/
 class Pantalla {
     constructor(displayValorAnterior, displayValorActual) {
@@ -24,6 +27,9 @@ class Pantalla {
             this.valorAnterior = this.valorActual;
         this.valorActual = '';
         this.imprimirValores();
+        if(this.tipoOperacion=raiz_cuadrada){
+            this.valorActual=null;
+        }
     }
 
     agregarNumero(numero) {
