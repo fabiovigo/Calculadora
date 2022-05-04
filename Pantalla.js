@@ -20,6 +20,9 @@ class Pantalla {
     computar(tipo) {
         this.tipoOperacion !== 'igual' && this.calcular();
         this.tipoOperacion = tipo;
+        if(tipo=='√'){
+            this.valorActual=0;
+        }
         if(!isNaN(this.valorActual)) 
             this.valorAnterior = this.valorActual;
         this.valorActual = '';
@@ -44,4 +47,6 @@ class Pantalla {
         if( isNaN(valorActual)  || isNaN(valorAnterior) ) return
         this.valorActual = this.calculador[this.tipoOperacion](valorAnterior, valorActual);
     }
+    
+
 }
